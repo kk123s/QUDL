@@ -1,0 +1,19 @@
+{
+  "ui": {
+    "enable_update_button": true,
+    "enable_progress_screen": true
+  },
+  "providers": {
+    "api": {
+      "base_url": "http:/home.xuebi.cloud:9009/api/",
+      "current_version": "1.20.1"
+    },
+    "mods": {
+      "base_url": "http://home.xuebi.cloud:9009/mods"
+    }
+  },
+  "download": {
+    "threads": 4,
+    "retries": 3
+  }
+}

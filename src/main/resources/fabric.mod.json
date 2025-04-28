@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "qudl",
+  "version": "${version}",
+  "name": "QUDL",
+  "description": "一个祈定制的客户端热更新",
+  "authors": ["xuebi"],
+  "contact": {
+    "website": "NULL",
+    "repo": "https://github.com/kk123s/QUDL"
+  },
+  "license": "GPL-3.0",
+  "icon": "404.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.qudl.client.QUDLClientMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": ">=0.83.0",
+    "minecraft": "1.20.1"
+  }
+}
